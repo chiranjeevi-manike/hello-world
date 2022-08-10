@@ -6,7 +6,14 @@ class Employee:
     company = 'Youtube'
 
     def get_email(self):
-        return f'{self.first_name}.{self.last_name}@{Employee.company}com'
+        return f'{self.first_name}.{self.last_name}@{Employee.company}.com'
+
+    @classmethod
+    def change_company(cls, new_name):
+        cls.company = new_name
+
+        def static_method():
+        print("This is a static method")
 
 
 emp1 = Employee('John', 'Smith')
