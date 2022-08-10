@@ -12,7 +12,8 @@ class Employee:
     def change_company(cls, new_name):
         cls.company = new_name
 
-        def static_method():
+    @staticmethod
+    def static_method():
         print("This is a static method")
 
 
