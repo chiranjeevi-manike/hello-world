@@ -1,4 +1,4 @@
-class Stack :
+class Stack:
 	'''Python implementation the stack'''
 	
 	def __init__(self):
@@ -18,6 +18,17 @@ class Stack :
 	
 	def size(self):
 		return len(self.items)
+
+
+def evenorodd(num):
+	if num%2 == 0:
+		print("Given Number is EVEN")
+	else:
+		print("Given number is ODD")
+
+evenorodd(6)
+a = Stack()
+a.push(45)
 
 ## Sample inputs
 if __name__ == '__main__':

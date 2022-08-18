@@ -1,3 +1,7 @@
+import array as myarray
+
+new_array = myarray.array("b",[1,3,6])
+
 # program to implement Linked List
 
 class LinkedList:
